@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1.556in" height="1.556in">
+    <defs>
+        <filter id="a">
+            <feFlood flood-color="#7B7B7B" flood-opacity="1" result="floodOut"/>
+            <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut"/>
+            <feBlend in="compOut" in2="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g filter="url(#a)">
+        <path fill-rule="evenodd" opacity=".4" fill="#FFF" d="M105 87.499H6.999A6.999 6.999 0 0 1 0 80.5V6.999A6.999 6.999 0 0 1 6.999 0H105a7 7 0 0 1 7 6.999V80.5a7 7 0 0 1-7 6.999zM105 14a7 7 0 0 0-7-7.001H14A7.002 7.002 0 0 0 6.999 14v48.999A7.002 7.002 0 0 0 14 70h84a7 7 0 0 0 7-7.001V14zm-63 87.5V91h28v10.5s7 3.499 10.499 6.999c3.501 3.5-3.499 3.5-3.499 3.5H35s-7 0-3.5-3.5S42 101.5 42 101.5z"/>
+    </g>
+</svg>
